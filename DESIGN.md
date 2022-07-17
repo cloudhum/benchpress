@@ -77,6 +77,6 @@ See wireframe minimum viable product below:
 - Verify intereface is functional on mobile devices 
 - TBD
 
-# Runbook
+# Runbook (how to run this software)
 
 - TBD
