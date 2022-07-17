@@ -70,7 +70,9 @@ See wireframe minimum viable product below:
 
 ## Unit tests 
 
-- TBD
+### Component/code unit tests
+
+### Visual unit tests
 
 ## Functional tests 
 
