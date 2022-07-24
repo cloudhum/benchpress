@@ -30,6 +30,10 @@ Provide a frontend for the [busylight](https://github.com/JnyJny/busylight) proj
 
 # Design
 
+See brainstorming whiteboard below:
+
+![image](https://user-images.githubusercontent.com/100453050/180666572-3d6f8bee-4772-4d97-bccf-65e5be7762ee.png)
+
 See wireframe minimum viable product below:
 
 (wireframe goes here)
