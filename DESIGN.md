@@ -34,9 +34,9 @@ See brainstorming whiteboard below:
 
 ![image](https://user-images.githubusercontent.com/100453050/180666572-3d6f8bee-4772-4d97-bccf-65e5be7762ee.png)
 
-See wireframe minimum viable product below:
+See interface mockup below:
 
-(wireframe goes here)
+![image](https://user-images.githubusercontent.com/100453050/181438099-baaf3520-33fc-4dda-94c7-45eee5ec0818.png)
 
 # Milestones
 
