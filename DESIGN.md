@@ -54,11 +54,13 @@ See wireframe minimum viable product below:
 - Display list of all available lights
 - Allow user to select a light to manage
 - Allow user to change a light's display name
-- Implement interface for desktop devices 
+- Implement button to delete a color
 - Write basic documentation
 
 ## Version 2.0
 
+- Implement interface for desktop devices 
+- Implement edit mode to modify existing colors (name, color value, delete color)
 - Verify adherence to accessibility guidelines
 - Expand documentation to include screenshots
 
