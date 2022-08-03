@@ -1,0 +1,134 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 23px 57px;
+    font-weight: 400;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+    
+}
+
+footer {
+    
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1 {
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+hr {
+    /* width: 95%; */
+    border: 1px solid #CCCCCC;
+    margin: auto;
+    /* margin: 21px 0px; */
+    /* margin: auto;
+    margin-top: 21px;
+    margin-bottom: 21px; */
+}
+
+.current-light-name {
+    letter-spacing: 0.035em;
+    font-size: 36px;
+}
+.light-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.light {
+    background-color: #86F175;
+    border-radius: 11px;
+    height: 150px;
+    width: 150px;
+}
+
+.on-off-button {
+    width: 150px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #00000080;
+    border-style: solid;
+    font-size: 15px;
+    line-height: 19.5px;
+    letter-spacing: 15%;
+    background-color: #F6F6F6;
+}
+
+.plus-icon {
+    width: 5vw;
+}
+
+.color-header {
+    display:flex;
+    justify-content: space-between;
+    gap:194px;
+    align-items: center;
+}
+
+.color-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.color-button {
+    min-width: 15vh;
+    aspect-ratio: 1 / 1 ;
+    background-color: lightcoral;
+    margin: 16px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-between; */
+}
+
+.color-button:nth-child(1){
+    background-color: #F2F628;
+}
+
+.color-button:nth-child(2){
+    background-color: #F18080;
+}
+
+.color-button:nth-child(3){
+    background-color: #86F175;
+}
+
+.color-button:nth-child(4){
+    background-color: #6DD2FF;
+}
+
+.color-button > p {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #525252;
+    
+}
