@@ -11,19 +11,15 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 23px 57px;
     font-weight: 400;
+    min-width: 260px;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-    
-}
+header {}
 
-footer {
-    
-}
+footer {}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -39,19 +35,18 @@ h2 {
 }
 
 hr {
-    /* width: 95%; */
     border: 1px solid #CCCCCC;
     margin: auto;
-    /* margin: 21px 0px; */
-    /* margin: auto;
+    min-width: 150px;
     margin-top: 21px;
-    margin-bottom: 21px; */
+    margin-bottom: 21px;
 }
 
 .current-light-name {
     letter-spacing: 0.035em;
     font-size: 36px;
 }
+
 .light-container {
     display: flex;
     flex-direction: column;
@@ -84,51 +79,63 @@ hr {
 }
 
 .color-header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    gap:194px;
+    gap: 194px;
     align-items: center;
+    margin-bottom: 1vh;
 }
 
-.color-grid{
+.color-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 }
 
-
 .color-button {
-    min-width: 15vh;
-    aspect-ratio: 1 / 1 ;
+    min-width: 150px;
+    max-width: 170px;
+    aspect-ratio: 1 / 1;
     background-color: lightcoral;
-    margin: 16px 0px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* align-content: space-between; */
+    margin: auto;
+    flex-basis: 100%;
 }
 
-.color-button:nth-child(1){
+.color-button:nth-child(1) {
     background-color: #F2F628;
 }
 
-.color-button:nth-child(2){
+.color-button:nth-child(2) {
     background-color: #F18080;
 }
 
-.color-button:nth-child(3){
+.color-button:nth-child(3) {
     background-color: #86F175;
 }
 
-.color-button:nth-child(4){
+.color-button:nth-child(4) {
     background-color: #6DD2FF;
 }
 
 .color-button > p {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 1em;
     letter-spacing: -0.01em;
     color: #525252;
-    
+}
+
+@media (min-width:475px) {
+    .color-button {
+        margin: 0;
+    }
+}
+
+@media (min-width:656px) {
+    .color-grid {
+        justify-content: start;
+    }
 }
