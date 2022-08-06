@@ -20,34 +20,36 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="current-light-name">Light 1</h1>
-        <h2>Device Info >></h2>
+    <div class="container">
+        <header>
+            <h1 class="current-light-name">Light 1</h1>
+            <h2>Device Info >></h2>
+            <hr class="solid">
+            </hr>
+        </header>
+        <div class="light-container">
+            <div class="light"></div>
+            <button class="on-off-button" disabled>Loading...</button>
+        </div>
         <hr class="solid">
         </hr>
-    </header>
-    <div class="light-container">
-        <div class="light"></div>
-        <button class="on-off-button">On</button>
-    </div>
-    <hr class="solid">
-    </hr>
-    <div class="color-header">
-        <h2>Colors</h2>
-        <!-- <img class="plus-icon" src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="Plus icon"> -->
-    </div>
-    <div class="color-grid">
-        <div class="color-button">
-            <p>Busy</p>
+        <div class="color-header">
+            <h2>Colors</h2>
+            <!-- <img class="plus-icon" src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="Plus icon"> -->
         </div>
-        <div class="color-button">
-            <p>DND</p>
-        </div>
-        <div class="color-button">
-            <p>Available</p>
-        </div>
-        <div class="color-button">
-            <p>Away</p>
+        <div class="color-grid">
+            <div class="color-button">
+                <p>Busy</p>
+            </div>
+            <div class="color-button">
+                <p>DND</p>
+            </div>
+            <div class="color-button">
+                <p>Available</p>
+            </div>
+            <div class="color-button">
+                <p>Away</p>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="js/main.js"></script>

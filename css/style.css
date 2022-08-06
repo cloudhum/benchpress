@@ -83,7 +83,7 @@ hr {
     justify-content: space-between;
     gap: 194px;
     align-items: center;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 .color-grid {
@@ -156,4 +156,4 @@ hr {
     } */
 } 
 
-/* // TODO: make iphone mini show 2 columns of color buttons 375*/
+/* TODO: go over gh issues and milestones */
