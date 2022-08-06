@@ -128,14 +128,32 @@ hr {
     color: #525252;
 }
 
-@media (min-width:475px) {
+@media (min-width:375px) {
     .color-button {
-        margin: 0;
+        min-width: 119px;
+        max-width: 122px;
+        margin:0px;
     }
 }
 
-@media (min-width:656px) {
+/* @media (min-width:475px) {
+    .color-button {
+        margin: 0;
+    }
+} */
+
+@media (min-width:514px) {
     .color-grid {
         justify-content: start;
     }
-}
+
+    /* .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+} 
+
+/* // TODO: make iphone mini show 2 columns of color buttons 375*/
