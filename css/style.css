@@ -66,17 +66,14 @@ hr {
     border-radius: 5px;
     margin-top: 1.1em;
     display: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
 }
 
-ul > * {
+.device-info-property {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 500;
     line-height: 20.8px;
-}
-
-.device-info-data {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 300;
 }
 
 .light-container {

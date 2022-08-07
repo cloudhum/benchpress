@@ -10,4 +10,5 @@ function deviceInfoShowHide() {
     }
 }
 
-// TODO: add span to titles of Device Info data 
+// let li = document.querySelector("li")
+// li.innerHTML += "Light 1"
