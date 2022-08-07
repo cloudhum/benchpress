@@ -54,6 +54,11 @@ hr {
     font-size: 36px;
 }
 
+.device-info-title {
+    text-decoration: none;
+    color: inherit;
+}
+
 .device-info {
     padding: .7rem;
     background-color: #F6F6F6;
