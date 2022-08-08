@@ -85,10 +85,33 @@ hr {
 }
 
 .light {
-    background-color: #86F175;
+    background-color: rgb(235, 235, 235);
+    /* border: 2px solid #777777; */
     border-radius: 11px;
     height: 150px;
     width: 150px;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+/* // TODO: use css variables to calculate x positioning exactly */
+.light-x::before,
+.light-x::after {
+    top: 72px;
+    left: -25px;
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 4px; /* cross thickness */
+    background-color: rgb(180, 180, 180);
+}
+
+.light-x::before {
+    transform: rotate(45deg);
+}
+
+.light-x::after {
+    transform: rotate(-45deg);
 }
 
 .on-off-button {
