@@ -19,7 +19,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="getLightStatus()">
     <div class="container">
         <header>
             <h1 class="current-light-name">Light 1</h1>
@@ -28,7 +28,7 @@
             </hr>
         </header>
         <div class="light-container">
-            <div class="light"></div>
+            <div id="light"class="light light-x"></div>
             <button class="on-off-button" disabled>Loading...</button>
         </div>
         <hr class="solid">
