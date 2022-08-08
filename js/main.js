@@ -1,5 +1,7 @@
 let rgbValues;
 let light = document.querySelector("#light")
+let deviceInfoTitle = document.querySelector('.device-info-title');
+let deviceInfo = document.querySelector('.device-info');
 
 async function getLightStatus() {
     const url = 'http://busyserv.mchaker.github.beta.tailscale.net:8080/light/0/status'
@@ -18,4 +20,13 @@ function setLightColor(rgbValues) {
     }
     document.querySelector('.light').style.backgroundColor = `rgb(${rgbValues[0]}, ${rgbValues[1]}, ${rgbValues[2]})`
     console.log("set light color to " + rgbValues)
+}
+
+function deviceInfoShowHide() {
+    let currentStyle = window.getComputedStyle(deviceInfo, null).display;
+    if (currentStyle == "none") {
+        deviceInfo.style.display = "block";
+    } else if (currentStyle == "block") {
+        deviceInfo.style.display = "none";
+    }
 }
