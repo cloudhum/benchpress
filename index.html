@@ -20,26 +20,28 @@
         rel="stylesheet">
 </head>
 
-<body onload="getLightStatus()">
+<body onload="getLightInfo()">
     <div class="container">
         <header>
             <h1 class="current-light-name">Light 1</h1>
             <h2><a href="javascript:deviceInfoShowHide()" class="device-info-title">Device Info >></a></h2>
             <div class="device-info">
                 <ul>
-                    <li><span class="device-info-property">Name:</span> </li>
-                    <li><span class="device-info-property">Light ID:</span> </li>
-                    <li><span class="device-info-property">Path:</span> </li>
-                    <li><span class="device-info-property">Vendor ID:</span> </li>
-                    <li><span class="device-info-property">Product ID:</span> </li>
-                    <li><span class="device-info-property">Serial Number:</span> </li>
-                    <li><span class="device-info-property">Manufacturer:</span> </li>
-                    <li><span class="device-info-property">Product:</span> </li>
-                    <li><span class="device-info-property">Usage Page:</span> </li>
-                    <li><span class="device-info-property">Usage:</span> </li>
-                    <li><span class="device-info-property">Interface Number:</span> </li>
-                    <li><span class="device-info-property">Is on?</span> </li>
-                    <li><span class="device-info-property">RGB:</span> </li>
+                    <li id="device-info-name"><span class="device-info-property">Name:</span> </li>
+                    <li id="device-info-lightID"><span class="device-info-property">Light ID:</span> </li>
+                    <li id="device-info-path"><span class="device-info-property">Path:</span> </li>
+                    <li id="device-info-vendorID"><span class="device-info-property">Vendor ID:</span> </li>
+                    <li id="device-info-productID"><span class="device-info-property">Product ID:</span> </li>
+                    <li id="device-info-serialNum"><span class="device-info-property">Serial Number:</span> </li>
+                    <li id="device-info-releaseNum"><span class="device-info-property">Release Number:</span> </li>
+                    <li id="device-info-manufacturer"><span class="device-info-property">Manufacturer:</span> </li>
+                    <li id="device-info-product"><span class="device-info-property">Product:</span> </li>
+                    <li id="device-info-usagePage"><span class="device-info-property">Usage Page:</span> </li>
+                    <li id="device-info-usage"><span class="device-info-property">Usage:</span> </li>
+                    <li id="device-info-interfaceNum"><span class="device-info-property">Interface Number:</span> </li>
+                    <li id="device-info-isOn"><span class="device-info-property">Is on?</span> </li>
+                    <li id="device-info-color"><span class="device-info-property">Color:</span> </li>
+                    <li id="device-info-rgb"><span class="device-info-property">RGB:</span> </li>
                 </ul>
             </div>
             <hr>
